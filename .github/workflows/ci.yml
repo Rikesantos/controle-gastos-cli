@@ -20,7 +20,7 @@ jobs:
           python -m pip install -r requirements.txt
 
       - name: Rodar Lint
-        run: python -m ruff .
+        run: ruff check .
 
       - name: Rodar Testes
         run: python -m pytest
