@@ -11,7 +11,6 @@ Também foi criado um teste automatizado utilizando Pytest para validar o fluxo 
 https://economia.awesomeapi.com.br/json/last/USD-BRL
 
 ## Como executar
-
 ```bash
 pip install -r requirements.txt
 python src/app.py
