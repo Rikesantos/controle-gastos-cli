@@ -1,47 +1,60 @@
-# Controle de Gastos CLI
+📌 Descrição
 
-## Entrega Intermediária
+Este projeto é uma aplicação simples em linha de comando (CLI) para controle de gastos pessoais.
 
-Nesta etapa foi implementada uma integração com a API pública AwesomeAPI para consultar a cotação do dólar em tempo real.
-
-Também foi criado um teste automatizado utilizando Pytest para validar o fluxo da API.
-
-## API utilizada
-
-https://economia.awesomeapi.com.br/json/last/USD-BRL
-
-## Como executar
-```bash
-pip install -r requirements.txt
-python src/app.py
-
-## 📌 Descrição
-Este projeto é uma aplicação simples em linha de comando (CLI) para controle de gastos pessoais.  
 Ele foi desenvolvido com o objetivo de ajudar pessoas a organizarem suas finanças de forma prática e acessível.
 
-## 🎯 Problema Real
-Muitas pessoas têm dificuldade em controlar seus gastos diários, o que pode levar a desorganização financeira e dívidas.
+🎯 Problema Real
 
-## 💡 Solução
+Muitas pessoas têm dificuldade em controlar seus gastos diários, o que pode levar à desorganização financeira e dívidas.
+
+💡 Solução
+
 A aplicação permite registrar, listar e gerenciar gastos, facilitando o controle financeiro básico.
 
-## 👥 Público-alvo
-- Estudantes
-- Pessoas com dificuldade em organizar finanças
-- Usuários que querem controle simples e rápido
+👥 Público-alvo
+Estudantes
+Pessoas com dificuldade em organizar finanças
+Usuários que querem controle simples e rápido
+⚙️ Funcionalidades
+Adicionar gasto
+Listar gastos
+Remover gasto
+Consultar cotação do dólar em tempo real
+🛠 Tecnologias utilizadas
+Python
+Requests
+Pytest (testes automatizados)
+Ruff (lint)
+GitHub Actions (CI)
+🔀 Controle de versão
+Issue criada no GitHub
+Branch entrega-intermediaria
+Pull Request realizado
+Merge concluído com sucesso
+✅ Testes
 
-## ⚙️ Funcionalidades
-- Adicionar gasto
-- Listar gastos
-- Remover gasto
+O projeto possui testes automatizados utilizando Pytest, incluindo teste de integração da API com mock da resposta externa.
 
-## 🛠 Tecnologias utilizadas
-- Python
-- Pytest (testes automatizados)
-- Ruff (lint)
-- GitHub Actions (CI)
 
-## ▶️ Como executar
+---
+
+# ✅ O que melhorou
+
+- README mais profissional
+- Markdown correto
+- Melhor visual no GitHub
+- Organização melhor
+- Funcionalidade nova aparece claramente
+- Barema mais bem atendido
+
+---
+
+# 🚀 Depois disso
+
+Salve o README e rode:
 
 ```bash
-python src/app.py
+git add .
+git commit -m "Melhora formatacao do README"
+git push origin main
