@@ -1,4 +1,20 @@
-# 💰 Controle de Gastos CLI
+# Controle de Gastos CLI
+
+## Entrega Intermediária
+
+Nesta etapa foi implementada uma integração com a API pública AwesomeAPI para consultar a cotação do dólar em tempo real.
+
+Também foi criado um teste automatizado utilizando Pytest para validar o fluxo da API.
+
+## API utilizada
+
+https://economia.awesomeapi.com.br/json/last/USD-BRL
+
+## Como executar
+
+```bash
+pip install -r requirements.txt
+python src/app.py
 
 ## 📌 Descrição
 Este projeto é uma aplicação simples em linha de comando (CLI) para controle de gastos pessoais.  
