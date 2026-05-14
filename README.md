@@ -39,6 +39,10 @@ O projeto possui testes automatizados utilizando Pytest, incluindo teste de inte
 
 ---
 
+## 🌐 Publicação
+
+https://rikesantos.github.io/controle-gastos-cli/
+
 # ✅ O que melhorou
 
 - README mais profissional
