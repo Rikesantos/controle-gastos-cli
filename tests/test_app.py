@@ -13,3 +13,13 @@ def test_calcular_total():
     adicionar_gasto("Teste", 10)
     total = calcular_total()
     assert total >= 10
+
+def test_consultar_cotacao_dolar():
+    from src.app import consultar_cotacao_dolar
+
+    cotacao = consultar_cotacao_dolar()
+
+    assert "moeda" in cotacao
+    assert "valor" in cotacao
+    assert "data" in cotacao
+    assert cotacao["valor"] > 0
